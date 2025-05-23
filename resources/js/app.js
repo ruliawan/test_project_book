@@ -1,0 +1,14 @@
+// import './bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+import 'datatables.net-bs5';
+import 'datatables.net-bs5/css/dataTables.bootstrap5.min.css';
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+window.global = window;
+import TomSelect from 'tom-select';
+import 'tom-select/dist/css/tom-select.css';
+window.TomSelect = TomSelect;
+import 'sweetalert2';
+import Swal from 'sweetalert2';
+window.Swal = Swal;
