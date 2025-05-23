@@ -23,42 +23,41 @@ A Laravel 10 application that allows users to rate books, with features includin
 
 1. **Clone the repository**
 
-   git clone https://github.com/ruliawan/test_project_book.git
-   cd test_project_bbok
+   - git clone https://github.com/ruliawan/test_project_book.git<br>
+   - cd test_project_bbok
 
 2. **Install PHP dependencies**
 
-   composer install
+   - composer install
    
 3. **Install Node.js dependencies and build assets**
 
-   npm install
-   npm run build
+   - npm install<br>
+   - npm run build
 
 4. **Set up environment configuration**
 
-   cp .env.example .env
-   php artisan key:generate
-
-   * Edit the .env file and update the database and other environment settings.
+   - cp .env.example .env<br>
+   - php artisan key:generate<br>
+      * Edit the .env file and update the database and other environment settings.
 
 5  **Run database migrations and seeders**
 
-   php artisan migrate --seed
+   - php artisan migrate --seed
    
 6. **Serve the application**
 
-   php artisan serve
+   php artisan serve<br>
    
-   *Visit the app at http://localhost:8000 or http://127.0.0.1:8000
+      *Visit the app at http://localhost:8000 or http://127.0.0.1:8000
 
 7. **Open Page**
 
-   - List of books with filter
+   - List of books with filter<br>
       *http://localhost:8000/book or http://127.0.0.1:8000/book
 
-   - Top 10 most famous author
+   - Top 10 most famous author<br>
      *http://localhost:8000/author or http://127.0.0.1:8000/author
 
-   - Input rating
+   - Input rating<br>
      *http://localhost:8000/rating or http://127.0.0.1:8000/rating
